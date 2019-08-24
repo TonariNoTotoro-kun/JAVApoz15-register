@@ -21,9 +21,12 @@
 			</tr>
 		</c:forEach>
 	</table>
-	
+
 	<spring:url value="/user/add" var="addUserFormUrl" />
+	<spring:url value="/user/search" var="searchUserFormUrl" />
 	<button class="btn btn-primary" onclick="location.href='${addUserFormUrl}'">Add user</button>
+<br>
+	<button class="button" onclick="location.href='${searchUserFormUrl}'">Find user</button>
 
 </body>
 </html>
