@@ -7,6 +7,8 @@
 
 <form:form method="get" action="/users">
     <input type="text" name="firstName"/>
+    <input type="checkbox" name="matchExact">
+    <br>
     <input type="submit"/>
 </form:form>
 
